@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height:100%;
+    width: 100%;
+    position: relative;
+}
+
+/* navbar start here  */
+.navbar {
+    height: 8vh;
+    width: 100%;
+    background-color: #000000;
+    color:black;
+    font-family: Arial, sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+.left{
+    height: 100%;
+    width: 30%;
+    /* background-color: orangered; */
+    /* align-items: center; */
+    display: flex;
+
+    
+}
+
+.remixicon{
+    height: 100%;
+    width: 10%;
+    padding-left: 2vw;
+    padding-top: 2.5vh;
+    color: aliceblue;
+}
+
+.left img{
+   height: 95%;
+   width: 10vw;
+   padding-left: 2vw;
+   padding-top: 0.5vh;
+}
+.right{
+    height: 100%;
+    width: 30%;
+    /* background-color: blueviolet; */
+    margin-left: 40vw;
+    padding-left: 23vw;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    
+}
+
+.ri-search-line{
+    color: aliceblue;
+    margin-top: 4vh;
+    padding-top: 4vh;
+    
+}
+.ri-more-line{
+    color: aliceblue;
+}
+
+/* navbar part end here  */
+/* 
+.container{
+    width: 100%;
+    height: 90vh;
+    /* margin-top: 1px; */
+    /* background-color: antiquewhite; */
+    background-color: peru;
+}
+
+.background-clip{
+  width: 100%;
+  /* height: 100%;     */
+}*/
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 91vh; /* 91% of the viewport height */
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    padding-top: 6vh;
+    /* top: 0; */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Optional: to add a semi-transparent background */
+    /* padding: 20px; */
+    box-sizing: border-box;
+}
+
+.overlay h1 {
+    padding-left:20vw;
+    color: red;
+    /* margin: 0 0 10px 0; */
+    font-size: 6em;
+
+}
+h1 span{
+    font-size: 2vw;
+    color: white;
+    
+}
+
+.overlay h2 {
+    padding-left: 20vw;
+    /* margin: 10px 0; */
+    font-size: 2em;
+    font-size: 5vw;
+}
+
+.overlay h3{
+    font-style: initial;
+    padding-left: 20vw;
+}
